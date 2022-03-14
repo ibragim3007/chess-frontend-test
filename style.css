@@ -1,0 +1,32 @@
+.desk{
+	width: 800px;
+	height: 800px;
+	border: 1px solid gray;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#plitka{
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.1s ease;	
+}
+
+body{
+	background: #333;
+}
+
+.white{
+	background: rgba(155, 80, 46);
+}
+.black{
+	background: rgba(215, 178, 155);
+}
+
+.focus{
+	background: blue;
+}
